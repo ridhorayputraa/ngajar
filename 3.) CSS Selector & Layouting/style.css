@@ -1,0 +1,10 @@
+/* Seluruh paragraf akan menjadi biru */
+p {
+  color: blue;
+}
+
+/* Seluruh h1 akan berwarna merah dengan background kuning */
+h1 {
+  color: red;
+  background-color: yellow;
+}
