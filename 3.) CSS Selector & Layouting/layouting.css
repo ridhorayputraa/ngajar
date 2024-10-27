@@ -1,0 +1,41 @@
+.simple-web {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+}
+
+.kepala,
+.navigasi,
+.konten,
+.kaki {
+  padding: 1em;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.kepala,
+.kaki {
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.kiri-kanan {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.navigasi {
+  flex-basis: 20%;
+  border-width: 0px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+
+.konten {
+  flex-grow: 1;
+  border-width: 0px;
+  border-right-width: 1px;
+  background-color: #93c5fd;
+}

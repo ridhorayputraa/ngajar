@@ -8,3 +8,24 @@ h1 {
   color: red;
   background-color: yellow;
 }
+
+/* 
+  Seluruh class "belajar" akan memiliki border dengan warna orange, 
+  memiliki padding 10px dan margin 10px; 
+*/
+.belajar {
+  border: 1px solid orange;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* hanya akan memodifikasi elemen dengan id 'react' */
+/* memberikan warna background dengan hex #61dbfb */
+#react {
+  background-color: #61dbfb;
+}
+
+h1,
+p {
+  text-align: center;
+}
